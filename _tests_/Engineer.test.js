@@ -1,21 +1,17 @@
-// The first class is an Employee parent class with the following properties and methods:
+// The first class is an Employee parent class with the following properties and methods: name, id, email
 
-// name
-
-// id
-
-// email
-
-// getName()
-
-// getId()
-
-// getEmail()
-
-// getRole()—returns 'Employee'
-
-// github—GitHub username
-
+class Engineer extends Employee {
+    constructor(name, id, email, github) {
+        super(name, id, email);
+        //Engineer now has access to Employee methods  
+        this.title = "Engineer";
+        // getRole()—overridden to return 'Engineer'
+        this.github = github;
+    }
 // getGithub()
+getGithub() {
+        return this.github;
+    }
+}
 
-// getRole()—overridden to return 'Engineer'
+module.exports = Engineer;s
