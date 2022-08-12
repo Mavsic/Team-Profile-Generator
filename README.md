@@ -32,9 +32,17 @@ THEN I am prompted to enter the intern’s name, ID, email, and school, and I am
 WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
 
+---
+
 ## Mock - up
 
+![An image of generated web page](./mockUp.png)
+
+---
+
 ## Wallthrough video
+[Walkthrough Video](./Untitled_%20Aug%2011%202022%2010_03%20PM.mp4)
 
 ## GitHub Repo
+https://github.com/Mavsic/Team-Profile-Generator
 
